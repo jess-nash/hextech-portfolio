@@ -22,14 +22,14 @@ header {
     position: fixed;
     z-index: 10;
     background: inherit;
-    height: 22%;
+    height: 16%;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 4rem;
     color: white;
-    margin: 15px;
+    margin: 0 auto;
 }
 
 header ul {
@@ -38,6 +38,7 @@ header ul {
   top: 50px;
   position: absolute;
   font-weight: 100;
+  margin: 0;
 }
 
 header li {
@@ -69,7 +70,7 @@ a:where(:hover, :focus-visible) {
 
 /* MAIN SECTION */
 .main {
-    margin-top: 152px;
+    margin-top: 140px;
     /* padding: 10px; */
     /* position: fixed; */
     overflow: auto;
@@ -146,7 +147,7 @@ a:where(:hover, :focus-visible) {
 }
 
 #hextech-container .about-us img {
-
+  width: 75%;
 }
 
 .crystal-container {
@@ -214,7 +215,7 @@ a:where(:hover, :focus-visible) {
 
 .team {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 /* Contact */
