@@ -71,18 +71,9 @@ a:where(:hover, :focus-visible) {
 /* MAIN SECTION */
 .main {
     margin-top: 140px;
-    /* padding: 10px; */
-    /* position: fixed; */
     overflow: auto;
-    /* top: 20px; */
-    /* bottom: 0; */
-    /* left: 0; */
-    /* right: 0; */
     text-align: center;
     width: 100%;
-    /* padding-top: 41px; */
-    /* z-index: 5; */
-    /* overflow-y: scroll; */
 }
 
 .main h1 {
@@ -219,9 +210,7 @@ a:where(:hover, :focus-visible) {
 }
 
 /* Contact */
-/* .contact-container {
-    display: flex;
-} */
+
 
 /* Footer */
 footer {
