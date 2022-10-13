@@ -71,12 +71,12 @@
 
 @media only screen and (min-width: 320px) {
   .card {
-    width: 10rem;
+    width: 7rem;
     padding: 5px;
   }
 
   .card img {
-    height: 120px;
-    width: 90%;
+    height: 100px;
+    min-width: 90%;
   }
 }
