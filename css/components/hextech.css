@@ -12,6 +12,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 .about-us p {
@@ -23,7 +24,7 @@
 }
 
 #hextech-container .about-us img {
-  width: 75%;
+  max-width: 200px;
 }
 
 .crystal-container {
