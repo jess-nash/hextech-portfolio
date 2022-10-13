@@ -6,11 +6,6 @@
 @import url("components/team.css");
 @import url("components/footer.css");
 
-html, body {
-  max-width: 1200px;
-  margin: auto;
-}
-
 body {
     margin: 0;
     font-family: 'Lateef', serif;
@@ -23,4 +18,15 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
 }

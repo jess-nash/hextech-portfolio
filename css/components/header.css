@@ -8,7 +8,7 @@ header {
   position: fixed;
   z-index: 10;
   background: inherit;
-  height: 16%;
+  height: 145px;
 }
 
 header h1 {
@@ -52,4 +52,9 @@ background-position-x: left;
 .underline {
 padding-bottom: 2px;
 --bg-h: 2px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
 }
