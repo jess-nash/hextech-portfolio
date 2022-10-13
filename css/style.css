@@ -29,20 +29,12 @@ a {
 
 @media only screen and (max-width: 768px) {
   body {
-    background: url("../images/hextech-bg1.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-x: center;
     background-size: 150%;
   }
 }
 
 @media only screen and (max-width: 480px) {
   body {
-    background: url("../images/hextech-bg1.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-x: center;
     background-size: 250%;
   }
 }
