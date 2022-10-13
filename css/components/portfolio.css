@@ -53,18 +53,30 @@
   }
 
   .card {
-    width: 13rem;
+    width: 10rem;
     padding: 5px;
   }
 
   .card img {
-    height: 160px;
-    width: 75%;
+    height: 135px;
+    width: 70%;
   }
 
   .card p {
     margin: 0;
     padding: 0 5px;
     line-height: 18px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .card {
+    width: 10rem;
+    padding: 5px;
+  }
+
+  .card img {
+    height: 120px;
+    width: 90%;
   }
 }
