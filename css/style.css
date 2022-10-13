@@ -12,6 +12,7 @@ body {
     background: url("../images/hextech-bg1.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-position-x: center;
     color: white;
 }
 
@@ -23,7 +24,9 @@ a {
 
 @media only screen and (max-width: 768px) {
   body {
-    background-position: center;
+    /* background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
   }
 }
 
