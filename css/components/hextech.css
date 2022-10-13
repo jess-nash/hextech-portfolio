@@ -1,0 +1,34 @@
+
+/* Hextech */
+#hextech-container {
+}
+
+#hextech-container h2 {
+    margin-bottom: 10px;
+}
+
+#hextech-container .about-us {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.about-us p {
+    max-width: 20rem;
+    padding: 10px;
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+#hextech-container .about-us img {
+  width: 75%;
+}
+
+.crystal-container {
+    border-radius: 50%;
+}
+
+#crystal {
+    border-radius: 50%;
+}

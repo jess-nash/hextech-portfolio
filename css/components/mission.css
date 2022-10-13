@@ -1,0 +1,25 @@
+/* Mission */
+#mission-container {
+  background: url("../../images/hextech-banner2.webp");
+  background-size: cover;
+  height: 200px;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 30%);
+  margin: 1rem 0;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+#mission-container h2 {
+  margin: 0;
+}
+
+#mission-container p {
+  margin: 0;
+  font-size: 1.5rem;
+  max-width: 23rem;
+}

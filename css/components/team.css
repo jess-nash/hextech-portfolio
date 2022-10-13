@@ -1,0 +1,13 @@
+/* Team */
+#team-container {
+  margin: 1rem 0;
+}
+
+#team-container h2 {
+  margin-bottom: 0;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,43 @@
+/* Portfolio */
+#portfolio-container {
+  margin: 1rem 0;
+}
+
+#portfolio-container h2 {
+  margin-bottom: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 15rem;
+  box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  letter-spacing: 1px;
+}
+
+.card img {
+  padding: 10px;
+  /* width: 100%; */
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  min-width: 150px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin: 5px 0;
+}

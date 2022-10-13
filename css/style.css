@@ -1,0 +1,20 @@
+@import url("components/header.css");
+@import url("components/main.css");
+@import url("components/mission.css");
+@import url("components/portfolio.css");
+@import url("components/team.css");
+@import url("components/footer.css");
+
+body {
+    margin: 0;
+    font-family: 'Lateef', serif;
+    background: url("../images/hextech-bg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
